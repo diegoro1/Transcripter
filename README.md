@@ -10,9 +10,9 @@ This application is heavily dependent on the Speech Recognition module, therefor
 
 ### Prerequisites
 
-PocketSphinx
-SpeechRecognition Library
-Python 2.6, 2.7, or 3.3+ (required)
+- PocketSphinx
+- SpeechRecognition Library
+- Python 2.6, 2.7, or 3.3+ (required)
 
 
 ### Installing
@@ -35,9 +35,8 @@ Now install SpeechRecognition
 
 ```
 pip install SpeechRecognition
-
 ```
-Download transcripter.py and mp3_to_wav_converter.sh(optional)
+Download transcripter.py and mp3_to_wav_converter.sh (optional)
 
 You are all set!
 
@@ -58,7 +57,7 @@ Python transcriter.py NAME_OF_FILE.wav -td [integer value of time in minutes]
 
 The result will be placed in a .txt file named after the original audio. Running the program again with the same file or same file name will simply replace the former .txt file with the new text data. 
 
-If the audio file is formatted as an mp3 and the user is running an UNIX machine, then run the following scrip to convert ALL .mp3 files to .wav
+If the audio file is formatted as an mp3 and the user is running an UNIX machine, then run the following scrip to convert _ALL_ .mp3 files to .wav
 
 ```
 chmod +x mp3_to_wav_converter.sh
@@ -72,8 +71,7 @@ Followed by
 
 ## Authors
 
-* **Diego Rodrigues** 
-[diegoro1]( https://github.com/diegoro1)
+* **Diego Rodrigues** ([diegoro1]( https://github.com/diegoro1))
 
 ## Acknowledgments
 
